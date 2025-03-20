@@ -1,16 +1,39 @@
-title: "国际社交桌游联合会"
+title: "International Board Game Federation (IBGF)"
 email: contact@ibgf.org
-description: >- 
+description: >-
   Connecting the World through Board Games.
 baseurl: ""
 url: "https://ibgf.github.io"
 theme: minima
 
-# 导航菜单
+# LOGO 设置
+logo: /assets/images/ibgf_logo.png
+
+# 自定义颜色
+minima:
+  skin: classic
+  social_links: []
+  header_color: "#39B7B0"
+  accent_color: "#F17A3D"
+  text_color: "#222222"
+
+# 多语言目录导航
+defaults:
+  - scope:
+      path: "en"
+    values:
+      lang: "en"
+  - scope:
+      path: "fr"
+    values:
+      lang: "fr"
+  - scope:
+      path: "zh"
+    values:
+      lang: "zh"
+
+# 首页设置
 header_pages:
-  - index.md
-  - _pages/about.md
-  - _pages/join.md
-  - _pages/news.md
-  - _pages/contact.md
-  - _pages/legal.md
+  - en/index.md
+  - fr/index.md
+  - zh/index.md
