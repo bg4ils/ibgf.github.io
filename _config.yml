@@ -1,0 +1,16 @@
+title: "国际社交桌游联合会"
+email: contact@ibgf.org
+description: >- 
+  Connecting the World through Board Games.
+baseurl: ""
+url: "https://ibgf.github.io"
+theme: minima
+
+# 导航菜单
+header_pages:
+  - index.md
+  - _pages/about.md
+  - _pages/join.md
+  - _pages/news.md
+  - _pages/contact.md
+  - _pages/legal.md
