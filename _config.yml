@@ -6,7 +6,6 @@ baseurl: ""
 url: "https://ibgf.github.io"
 theme: minima
 
-# LOGO 设置
 logo: /assets/images/ibgf_logo.png
 
 # 自定义颜色
