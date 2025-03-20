@@ -1,0 +1,2 @@
+# ibgf.github.io
+FÉDÉRATION INTERNATIONALE DES JEUX DE SOCIÉTÉ
